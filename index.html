@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><!--<![endif]-->
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
+		<title>Website CV Tomasz Cypser</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 1440px)" href="style.css">
+                <!-- import jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	</head>
+	<body>
+	
+    <header>
+		<div style="width:100%;">
+			<div class="page-header">
+			<div class="pic-header">
+				<div class="borderPic-header">
+					<img src="pic.jpg" class="profilepic"/>
+				</div>
+			</div>
+			<div class="name-header">Hi, I'm Tomasz Cypser</div>
+			<div class="title-header">Software Developer</div>
+			<div class="text-header">I am beginner software developer, always had great time spending tons of time computer and trying out new things related to technology. I'm trying to be the best coder that I can be. My main area of interests is front-end and web-based technologies. Currently living in Cracow but came from small city in northern Poland called Bielsko-Biała. Always trying to be open minded, hard working and listening to what others have to say. Privately I'm fan of video games, healthy lifestyle and self-development.</div>
+		</div>
+	</header>
+    <div id="main">
+        <div class="container">
+            <div class="container-header">
+                <h1 id="head">Timeline</h1>
+            </div>
+            <div class="container-headerColumn">
+                <h1 id="head">Work</h1>
+            </div>
+            <div class="container-headerColumn">
+                <h1 id="head">Education</h1>
+            </div>
+            <ul class="timeline">
+                <li>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title"><font color="#F08080">Education</font> - Highschool finish</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>September 2009 - June 2013</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Electronic, Electrical and Mechanical Education School Complex in Bielsko-Biała</p>
+                      <p>Profile: IT technician</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title"><font color="#F08080">Work</font> - First working experiance</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 2013 - September 2013</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Company "Bielbit Serwis" in Bielsko-Biała</p>
+                        <p>Working there as network installer, I had gained basic knowledge of how to install and maintain existing networks in big companies such as FIAT or NEMAK.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title"><font color="#F08080">Education</font> - University - Bachelor of Science</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>September 2013 - present</small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>AGH University of Science and Technology</p>
+                        <p>Bachelor of Science in Applied Computer Science at faculty of Geology, Geophysics and Environmental Protection.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="timeline-inverted">
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                      <h4 class="timeline-title"><font color="#F08080">Work</font> - First job as software developer</h4>
+                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>July 2015 - present</small></p>
+                    </div>
+                    <div class="timeline-body">
+                      <p>Company „CDN-Partner w Krakowie sp. z o.o” in Cracow</p>
+                      <p>Working for CDN I had learned how to work with big ERP systems such as Comarch Xl or Comarch Optima. My daily duties consist of writing sql scripts, expanding functionality of comarch systems using C# programming language and writing business reports with Crystal Reports.</p>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="container-header">
+                <h1 id="head">Skills</h1>
+            </div>
+            <div class="container-headerSmall">
+                <h1 id="head">Programming languages</h1>
+                <div style="height: 500px;"></div>
+            </div>
+            <div class="container-headerSmall">
+                <h1 id="head">Foreign language</h1>
+                <div style="height: 500px;"></div>
+            </div>
+            <div class="container-headerSmall">
+                <h1 id="head">Work related interests</h1>
+                <div style="height: 500px;"></div>
+            </div>
+        </div>
+        <footer>
+            <div class="contanct">
+                © 2016 by Tomasz Cypser.
+            </div>
+        </footer>
+    </div>
+        
+
+        
+        
+        
+        
+        <script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 0.001)
+    { 
+        $('header').addClass("sticky");
+        $('#main').addClass("stickyM");
+    }
+    else if($(this).scrollTop() <= 0.001)
+    {
+        $('header').removeClass("sticky");
+        $('#main').removeClass("stickyM");
+    }
+    });
+        </script>
+	</body>
+</html>
