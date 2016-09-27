@@ -208,11 +208,12 @@ body{
 }
 
 .container-headerSmall{
-    font-size: 18px;
+    font-size: 12px;
 }
-.container-headerSmall #head{
+.container-headerSmall .head{
     font-size: 18px;
     padding-left: 20px;
+    margin-bottom: 40px;
 }
 
 .container-headerColumn{
@@ -347,6 +348,35 @@ body{
   margin-top: 5px;
 }
 
+chart {
+    position:relative;
+    margin:80px;
+    width:220px; height:220px;
+        z-index: 999999;
+}
+
+span {
+    color:#555;
+    display:block;
+    line-height:220px;
+    text-align:center;
+     width:220px;
+    font-family:sans-serif;
+    font-size:40px;
+    font-weight:100;
+    margin-left:5px;
+    z-index: 999999;
+}
+
+input {
+    width: 200px;
+}
+
+span {
+}
+
+
+
 @media (max-width: 1440px) {
     .timeline > li > .timeline-panel {
         width: 43%;
@@ -376,4 +406,20 @@ body{
     header.sticky {
         position: absolute;
     }
+}
+
+.containerS {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  display:inline-block;
+  text-align: center;
+}
+
+.skillsContainer{
+    height: 550px;
+}
+
+#skillsContainer2{
+    height: 300px;
 }
